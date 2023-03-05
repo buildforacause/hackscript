@@ -2542,6 +2542,23 @@ textarea.w-select {
   align-items: flex-start;
 }
 
+canvas {
+  width: 100%;
+}
+
+.rotate {
+  animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 .header-center-box {
   display: block;
   margin-right: auto;
