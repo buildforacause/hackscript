@@ -147,6 +147,10 @@ figure {
   }
   4%, 100% {  text-shadow: none; transform: none; }
 }
+.co-powered{
+  width: 8%;
+  height: "auto";
+}
 hr {
   box-sizing: content-box;
   height: 0;
@@ -942,6 +946,10 @@ textarea.w-select {
 @media screen and (max-width: 479px) {
   .w-container {
     max-width: 400px;
+  }
+  .co-powered{
+    width: 20%;
+    height: "auto";
   }
   .w-hidden-main {
     display: inherit !important;
