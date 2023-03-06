@@ -2249,7 +2249,7 @@ textarea.w-select {
 .heading-4 {
   margin-top: 0px;
   margin-bottom: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 .heading-5 {
@@ -2323,7 +2323,7 @@ textarea.w-select {
   color: #f1423c;
   font-size: 28px;
   line-height: 32px;
-  text-align: left;
+  text-align: center;
 }
 
 .text-block-2 {
@@ -2336,6 +2336,7 @@ textarea.w-select {
 
 .heading-12 {
   color: fff;
+  text-align: center;
 }
 
 .paragraph-medium {
@@ -3226,7 +3227,7 @@ display: none;
   .heading-3 {
     font-size: 36px;
     line-height: 48px;
-    text-align: left;
+    text-align: center;
   }
 
   .tracks {
@@ -3470,6 +3471,7 @@ display: none;
 
   .heading-10 {
     margin-top: 0px;
+    text-align: center;
   }
 
   .schedule {
