@@ -4,7 +4,7 @@
 >
   <head>
     <meta charset="utf-8" />
-    <title>HackScript 3.0</title>
+    <title>HackScript 4.0</title>
     <meta
       content="Test your rapid prototyping and
             design thinking skills while pushing the limits of your mind to make
@@ -45,6 +45,8 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.0/slicknav.min.css" integrity="sha512-MVXhwgzug/vd2/6CjhEI2KY7Hl60+LM3alGwzQAnlOifbQqEbiUb8nfQHonBMDJUT8J/AT6xoWv07G96TL7fFQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <script
       src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
       type="text/javascript"
@@ -66,6 +68,7 @@
       style="opacity: 0"
       class="sticky-nav"
     >
+      <div id="mobile-menu">
       <nav class="w-container">
         <ul role="list" class="nav-grid w-list-unstyled">
           <li id="w-node-_8bef9f4b-d3ae-2689-7a83-804b6f6d6dfa-8e5a2867">
@@ -76,7 +79,7 @@
               ><img
               style="filter: brightness(0) invert(1);"
               src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c0840e59-db43-4681-ae7b-31a04dc4bc55/d7eqdvw-4e97ac92-e4b9-4498-9655-e4d612eb478b.png/v1/fill/w_1600,h_900,strp/random_logo_by_criticl_d7eqdvw-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvYzA4NDBlNTktZGI0My00NjgxLWFlN2ItMzFhMDRkYzRiYzU1XC9kN2VxZHZ3LTRlOTdhYzkyLWU0YjktNDQ5OC05NjU1LWU0ZDYxMmViNDc4Yi5wbmciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.X991O1jF5lTNZbbEoHEfoo6nlHEihBMHMIm5-uBCXcU"
-              alt="HackScript 3.0"
+              alt="HackScript 4.0"
               class="hero-image"
             /></a>
           </li>
@@ -97,6 +100,14 @@
             >
           </li>
           <li>
+            <a
+              href="how-to-reach.html"
+              target="_blank"
+              class="nav-link"
+              >How To Reach?</a
+            >
+          </li>
+          <li>
             <a href="/faq.html" class="nav-link">FAQs</a>
           </li>
           <li>
@@ -109,6 +120,13 @@
           </li>
         </ul>
       </nav>
+</div>
+
+
+      <div id="mobile-menu-wrap" data-w-id="ebe32fdf-61fc-e82a-e6a2-ad8b25947dae">
+        <div class="slicknav_menu">
+          </div>
+      </div>
     </header>
     <header id="hero" class="welcome" style="margin-top: 50px; margin-bottom: 50px;">
       <div class="flex-container w-container">
@@ -120,7 +138,7 @@
           <img
             style="filter: brightness(0) invert(1);"
             src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c0840e59-db43-4681-ae7b-31a04dc4bc55/d7eqdvw-4e97ac92-e4b9-4498-9655-e4d612eb478b.png/v1/fill/w_1600,h_900,strp/random_logo_by_criticl_d7eqdvw-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvYzA4NDBlNTktZGI0My00NjgxLWFlN2ItMzFhMDRkYzRiYzU1XC9kN2VxZHZ3LTRlOTdhYzkyLWU0YjktNDQ5OC05NjU1LWU0ZDYxMmViNDc4Yi5wbmciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.X991O1jF5lTNZbbEoHEfoo6nlHEihBMHMIm5-uBCXcU"
-            alt="HackScript 3.0"
+            alt="HackScript 4.0"
             class="hero-image rotate"
           />
         </div>
@@ -129,8 +147,20 @@
           style="opacity: 0"
           class="div-block"
         >
-          <h1 class="heading"><strong>HackScript</strong> 3.0</h1>
-          <h3>is back</h3>
+          <div style="display: flex;justify-content: center;align-items: center; margin-top: 10%;">
+          <div class="stack">
+            <span style="--index: 0;">HackScript</span>
+            <span style="--index: 1;">HackScript</span>
+            <span style="--index: 2;">HackScript</span>
+          </div>
+            </div>
+<!--          <h1 class="glitch">-->
+<!--            <span aria-hidden="true">HackScript 4.0</span>-->
+<!--            HackScript 4.0-->
+<!--            <span aria-hidden="true">HackScript 4.0</span>-->
+<!--          </h1>-->
+<!--          <h1 class="heading"><strong>HackScript</strong> 4.0</h1>-->
+          <h3>4.0 is back</h3>
           <div class="text-block">March 18, 2023 – March 19, 2023</div>
           <p class="paragraph">
             Choose a problem statement, work on the solution,
@@ -175,19 +205,13 @@
         <div class="feature-image-mask">
           <img
             class="feature-image"
-            src="https://uploads-ssl.webflow.com/5e90237d28e5d0112e5a2866/6001e486eb6f5a4b11a982ce_P2.png"
-            alt="Understand the Problem | Dubstech
-                                    Protothon 2020"
-            style="opacity: 0"
+            src="./step1.png"
+            alt="Step 1"
+            style="opacity: 0; "
             sizes="(max-width: 479px) 93vw, (max-width:
                                     767px) 95vw, (max-width: 991px) 303.96875px,
                                     451.84375px"
             data-w-id="891ec4c5-950a-21a5-c43b-09b143489e5f"
-            srcset="
-              https://uploads-ssl.webflow.com/5e90237d28e5d0112e5a2866/6001e486eb6f5a4b11a982ce_P2-p-500.png  500w,
-              https://uploads-ssl.webflow.com/5e90237d28e5d0112e5a2866/6001e486eb6f5a4b11a982ce_P2-p-800.png  800w,
-              https://uploads-ssl.webflow.com/5e90237d28e5d0112e5a2866/6001e486eb6f5a4b11a982ce_P2.png       1182w
-            "
           />
         </div>
       </div>
@@ -198,17 +222,11 @@
           class="feature-image-mask"
         >
           <img
-            src="https://uploads-ssl.webflow.com/5e90237d28e5d0112e5a2866/6001e4899964f89d164248d4_P3%20with%20background.png"
-            alt="Understand the Problem | Dubstech
-                                    Protothon 2020"
+            src="./step2.png"
+            alt="Step 2"
             sizes="(max-width: 479px)
                                     93vw, (max-width: 767px) 95vw, (max-width:
                                     991px) 282.9375px, 423.75px"
-            srcset="
-              https://uploads-ssl.webflow.com/5e90237d28e5d0112e5a2866/6001e4899964f89d164248d4_P3%20with%20background-p-800.png   800w,
-              https://uploads-ssl.webflow.com/5e90237d28e5d0112e5a2866/6001e4899964f89d164248d4_P3%20with%20background-p-1080.png 1080w,
-              https://uploads-ssl.webflow.com/5e90237d28e5d0112e5a2866/6001e4899964f89d164248d4_P3%20with%20background.png        1182w
-            "
             class="feature-image"
           />
         </div>
@@ -244,18 +262,12 @@
           class="feature-image-mask"
         >
           <img
-            src="https://uploads-ssl.webflow.com/5e90237d28e5d0112e5a2866/6001e48b4633ebb9a5deb11f_P5%20with%20background.png"
-            alt="Understand the Problem
-                                                    | Dubstech Protothon 2020"
+            src="./step3.png"
+            alt="Step 3"
             sizes="(max-width: 479px)
                                                     93vw, (max-width: 767px)
                                                     95vw, (max-width: 991px)
                                                     278.296875px, 417.5px"
-            srcset="
-              https://uploads-ssl.webflow.com/5e90237d28e5d0112e5a2866/6001e48b4633ebb9a5deb11f_P5%20with%20background-p-800.png   800w,
-              https://uploads-ssl.webflow.com/5e90237d28e5d0112e5a2866/6001e48b4633ebb9a5deb11f_P5%20with%20background-p-1080.png 1080w,
-              https://uploads-ssl.webflow.com/5e90237d28e5d0112e5a2866/6001e48b4633ebb9a5deb11f_P5%20with%20background.png        1360w
-            "
             class="feature-image"
           />
         </div>
@@ -267,19 +279,12 @@
           class="feature-image-mask"
         >
           <img
-            src="https://uploads-ssl.webflow.com/5e90237d28e5d0112e5a2866/6001e48d8a7227b1677054e8_Zoom.png"
-            alt="Understand the Problem
-                                                    | Dubstech Protothon 2020"
+            src="./step4.png"
+            alt="Step 4"
             sizes="(max-width: 479px)
                                                     93vw, (max-width: 767px)
                                                     95vw, (max-width: 991px)
                                                     402.34375px, 577.8125px"
-            srcset="
-              https://uploads-ssl.webflow.com/5e90237d28e5d0112e5a2866/6001e48d8a7227b1677054e8_Zoom-p-500.png   500w,
-              https://uploads-ssl.webflow.com/5e90237d28e5d0112e5a2866/6001e48d8a7227b1677054e8_Zoom-p-800.png   800w,
-              https://uploads-ssl.webflow.com/5e90237d28e5d0112e5a2866/6001e48d8a7227b1677054e8_Zoom-p-1080.png 1080w,
-              https://uploads-ssl.webflow.com/5e90237d28e5d0112e5a2866/6001e48d8a7227b1677054e8_Zoom.png        1287w
-            "
             class="feature-image"
           />
         </div>
@@ -1305,6 +1310,8 @@
       integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
       crossorigin="anonymous"
     ></script>
+    <script src="slicknav.js" type="text/javascript"></script>
+
     <script
       src="script.js"
       type="text/javascript"

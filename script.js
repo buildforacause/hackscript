@@ -1,4 +1,13 @@
+$(document).ready(function(){
+$("#mobile-menu").slicknav({
+        prependTo: '#mobile-menu-wrap',
+        label: '',
+        duplicate: true,
+        allowParentLinks: true
+});
+});
 $(window).on("load", ()=> {
+
 // global variables
 const confetti = document.getElementById('confetti');
 const confettiCtx = confetti.getContext('2d');

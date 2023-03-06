@@ -3,6 +3,10 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+.slicknav_menu {
+    background: #121212!important;
+    padding: 5px;
+}
 body {
   margin: 0;
 }
@@ -71,6 +75,10 @@ sup {
   position: relative;
   vertical-align: baseline;
 }
+.small-heading-info{
+    color: red;
+    font-weight: bold;
+}
 sup {
   top: -0.5em;
 }
@@ -85,6 +93,59 @@ svg:not(:root) {
 }
 figure {
   margin: 1em 40px;
+}
+
+.stack {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: auto;
+}
+
+.stack span {
+  font-weight: bold;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  font-size: 4rem;
+  --stack-height: calc(100% / var(--stacks) - 1px);
+  --inverse-index: calc(calc(var(--stacks) - 1) - var(--index));
+  --clip-top: calc(var(--stack-height) * var(--index));
+  --clip-bottom: calc(var(--stack-height) * var(--inverse-index));
+  clip-path: inset(var(--clip-top) 0 var(--clip-bottom) 0);
+  animation: stack 2s cubic-bezier(.46,.29,0,1.24) 1 backwards calc(var(--index) * 20ms), glitch 0.9s ease infinite 2s alternate-reverse;
+}
+
+.stack span:nth-child(odd) { --glitch-translate: 8px; }
+.stack span:nth-child(even) { --glitch-translate: -8px; }
+
+@keyframes stack {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+    text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
+  };
+  60% {
+    opacity: 0.5;
+    transform: translateX(50%);
+  }
+  80% {
+    transform: none;
+    opacity: 1;
+    text-shadow: 2px -3px 0 red, -2px 3px 0 blue;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
+    transform: translate(var(--glitch-translate));
+  }
+  2% {
+    text-shadow: 2px -3px 0 red, -2px 3px 0 blue;
+  }
+  4%, 100% {  text-shadow: none; transform: none; }
 }
 hr {
   box-sizing: content-box;
@@ -880,7 +941,7 @@ textarea.w-select {
 }
 @media screen and (max-width: 479px) {
   .w-container {
-    max-width: none;
+    max-width: 400px;
   }
   .w-hidden-main {
     display: inherit !important;
@@ -2344,7 +2405,13 @@ textarea.w-select {
   font-size: 16px;
   line-height: 24px;
 }
-
+.res-cont{
+        display: flex;
+        flex-direction: column;
+    }
+iframe{
+    width: 100%;
+}
 .sticky-nav {
   position: -webkit-sticky;
   position: sticky;
@@ -3059,6 +3126,10 @@ canvas {
   }
 }
 
+#mobile-menu-wrap{
+display: none;
+}
+
 @media screen and (max-width: 767px) {
   .welcome {
     padding: 40px 20px;
@@ -3426,8 +3497,17 @@ canvas {
   }
 
   .sticky-nav {
-    display: none;
+    display: block;
     padding: 0px;
+  }
+  #mobile-menu{
+    display: none;
+  }
+  #mobile-menu-wrap{
+    display: block;
+  }
+  .nav-logo-link{
+   display: none!important;
   }
 
   .nav-grid {
