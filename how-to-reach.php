@@ -68,13 +68,13 @@
             /></a>
           </li>
           <li>
-            <a href="index.html" class="nav-link"
+            <a href="index.php" class="nav-link"
               >Home</a
             >
           </li>
           <li>
             <a
-              href="faq.html"
+              href="faq.php"
               aria-current="page"
               class="nav-link w--current"
               >FAQ</a

@@ -57,7 +57,7 @@
         <ul role="list" class="nav-grid w-list-unstyled">
           <li id="w-node-_8bef9f4b-d3ae-2689-7a83-804b6f6d6dfa-8e5a2867">
             <a
-              href="index.html"
+              href="index.php"
               aria-current="page"
               class="nav-logo-link w-inline-block w--current"
               ><img
@@ -68,13 +68,13 @@
             /></a>
           </li>
           <li>
-            <a href="index.html" class="nav-link"
+            <a href="index.php" class="nav-link"
               >Home</a
             >
           </li>
           <li>
             <a
-              href="how-to-reach.html"
+              href="how-to-reach.php"
               aria-current="page"
               class="nav-link w--current"
               >How To Reach?</a

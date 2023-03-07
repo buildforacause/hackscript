@@ -99,13 +99,13 @@
           </li>
           <li>
             <a
-              href="how-to-reach.html"
+              href="how-to-reach.php"
               class="nav-link"
               >How To Reach?</a
             >
           </li>
           <li>
-            <a href="faq.html" class="nav-link">FAQs</a>
+            <a href="faq.php" class="nav-link">FAQs</a>
           </li>
           <li>
             <div 
@@ -425,7 +425,7 @@
         >
           This is an offline hackathon so you're supposed to arrive at A.P.Shah 
           Institute Of Technology (Thane West).<strong></strong><br />
-          Check out how to reach <a class="link-4" href="how-to-reach.html">here</a>!
+          Check out how to reach <a class="link-4" href="how-to-reach.php">here</a>!
         </p>
         <div class="div-block-3">
           <div
@@ -1110,7 +1110,7 @@
               >hackscript4@apsit.edu.in</a
             ><br />
           </p>
-          <a href="faq.html" class="yellow-button w-button"
+          <a href="faq.php" class="yellow-button w-button"
             >GO TO FAQ</a
           ></center>
         </div>
