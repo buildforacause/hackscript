@@ -151,7 +151,7 @@ function hideConfetti() {
 confettiLoop();
 function confettiLoop() {
     addConfetti();
-    setTimeout(confettiLoop, 700 + Math.random() * 1700);
+    setTimeout(confettiLoop, 3000);
 }
 })
 
