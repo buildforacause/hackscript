@@ -84,7 +84,7 @@
           <a
               href="./reg.php"
               target="_blank"
-              class="yellow-button small-text w-button"
+              class="yellow-button w-button"
               >REGISTER NOW</a
             >
           </li>
