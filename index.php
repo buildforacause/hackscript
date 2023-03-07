@@ -110,7 +110,7 @@
           <li>
           <a
               href="./reg.php"
-              target="_blank"
+              target=""
               class="yellow-button w-button"
               >REGISTER NOW</a
             >
@@ -162,7 +162,7 @@
           </p>
           <a
               href="./reg.php"
-              target="_blank"
+              target=""
               class="yellow-button w-button"
               >REGISTER NOW</a
             >
