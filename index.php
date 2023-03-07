@@ -108,12 +108,12 @@
             <a href="faq.php" class="nav-link">FAQs</a>
           </li>
           <li>
-            <div 
-            class="apply-button" 
-            data-hackathon-slug="hackscript-4" 
-            data-button-theme="dark-inverted"
-            style="height: 44px; width: 312px"
-          ></div>
+          <a
+              href="./reg.php"
+              target="_blank"
+              class="yellow-button small-text w-button"
+              >REGISTER NOW</a
+            >
           </li>
         </ul>
       </nav>
@@ -160,12 +160,12 @@
             Choose a problem statement, work on the solution,
              win some exciting prizes!<br />
           </p>
-          <div 
-          class="apply-button" 
-          data-hackathon-slug="hackscript-4" 
-          data-button-theme="dark-inverted"
-          style="height: 44px; width: 312px"
-        ></div>
+          <a
+              href="./reg.php"
+              target="_blank"
+              class="yellow-button small-text w-button"
+              >REGISTER NOW</a
+            >
           </center>
         </div>
       </div>

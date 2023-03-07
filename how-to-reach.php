@@ -81,12 +81,12 @@
             >
           </li>
           <li>
-            <div 
-            class="apply-button" 
-            data-hackathon-slug="hackscript-4" 
-            data-button-theme="dark-inverted"
-            style="height: 44px; width: 312px"
-          ></div>
+          <a
+              href="./reg.php"
+              target="_blank"
+              class="yellow-button small-text w-button"
+              >REGISTER NOW</a
+            >
           </li>
         </ul>
       </nav>
